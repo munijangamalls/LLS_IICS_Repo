@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "9brB8uKLgdUed6cDrLl3y5",
+    "name" : "m_Syl_STG_SFDC_CrossRef_Referral_Professional - Copy 1",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0118TM170000000001GY"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping to load SF External_Contacts__c table and SqlSvr Stage CrossRef table. ",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-07-23T19:23:40.555Z",
+  "objectRefs" : [ {
+    "id" : "6A3GGVT5ItCb4WQf11F1yH",
+    "name" : "mplt_cleanseContact-20240627",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0118TM4000000000001N"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapplet to cleanse contact information ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sylvester_DEV/Stg_2_SF_Mapplets"
+  }, {
+    "id" : "38MNvlXycIucfIYxrOnRGD",
+    "name" : "mplt_matchContact-20240627",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0118TM4000000000001O"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : " Mapplet to cleanse contact information ",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sylvester_DEV/Stg_2_SF_Mapplets"
+  }, {
+    "id" : "4py9zUwj5gubvbz7vXjpO9",
+    "name" : "SYVL_SQL_SERVER_DEV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0118TM0B00000000000R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Sylvester Referral App MS SQL Server Connection",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
